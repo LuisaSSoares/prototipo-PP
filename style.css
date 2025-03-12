@@ -15,28 +15,34 @@ form{
     background-color: #F8FFCA;
     border-radius: 20px;
     display: flex;
-    overflow-y: auto;
 }
 
 .containerForm{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
-    gap: 5px;
-    
+    margin-left: 50px;
+    padding: 20px;
+}
+.tituloForm{
+    display: flex;
+    flex-direction: column;
 }
 
-hr{
-    color: black;
+.tituloForm h1{
+    align-self: center;
 }
 
 .containerForm h1{
     font-family: "Julius Sans One";
+
 }
 
 form img{
     height: 500px;
     width: 400px;
     margin-left: auto;
+}
+
+.campoForm{
+    margin-top: 45px;
 }
