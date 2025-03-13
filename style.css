@@ -10,7 +10,7 @@ body{
 
 form{
     max-width: 75%;
-    height: 500px; 
+    height: 650px; 
     margin: 35px auto;
     background-color: #F8FFCA;
     border-radius: 20px;
@@ -18,31 +18,85 @@ form{
 }
 
 .containerForm{
+    margin-top: 45px;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    padding: 20px;
-}
-.tituloForm{
-    display: flex;
-    flex-direction: column;
+
 }
 
-.tituloForm h1{
-    align-self: center;
-}
 
 .containerForm h1{
-    font-family: "Julius Sans One";
+    text-align: center;
+    font-size: 60px;
+    font-family: "Julius Sans One"; 
+    color: #193309;
+}
 
+.containerForm hr{
+    width: 38vw;
+    color: #193309;
+   
+}
+
+.containerForm p{
+    align-self: center;
+    margin-top: 15px;
+    color: #193309;
 }
 
 form img{
-    height: 500px;
-    width: 400px;
+    height: 650px;
+    width: 450px;
     margin-left: auto;
 }
 
 .campoForm{
-    margin-top: 45px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #3E5A2E;
+
+}
+
+.campoForm input{
+    width: 300px;
+    background-color: transparent;
+    border: 1px solid #B6D084;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #B6D084;
+}
+
+.campoForm input:focus{
+    border: 2px solid #3E5A2E;
+    outline: none;
+}
+
+.botaoForm{
+    align-self: center;
+    font-size: 18px;
+    width: 15vw;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #B6D084;
+    border: none;
+    color: #193309;
+    margin-top: 15px;
+}
+
+.registrarForm{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+}
+
+.registrarForm hr{
+    width: 15vw;
+    color: #193309;
+}
+
+.registrarForm p{
+    font-size: 15px;
+    color: #193309;
 }
