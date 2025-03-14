@@ -136,31 +136,55 @@ form img{
     color: #193309;
 
 }
-
-.headerHome{
+#formHome{
     display: flex;
-    
+    flex-direction: column;
 }
 
-.headerHome img{
-    height: 15px;
+#formHome h1{
+    font-family: "Julius Sans One";
+    align-self: center;
+    font-size: 30px;
+    color: #193309;
+}
+
+.headerHome{
+    padding: 15px;
+    display: flex;
+    height: 3cm;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 #logo{
     height: 16vh;
     width: 16vw;
+    margin-top: 15px;
 }
 
 .acesso{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.acesso img{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
 }
 .pesquisa{
+    padding: 10px;
     margin-top: 15px;
     box-shadow: 2px 2px 8px #6B7D47;
     display: flex;
     background-color: transparent;
     height: 1cm;
-    width: 23vw;
+    width: 20vw;
     border-radius: 50px;
     border: 1px solid #6B7D47;
     align-items: center;
@@ -185,4 +209,71 @@ form img{
  
 .pesquisa img {
     height: 25px;
+    width: 25px;
 }
+
+.containerSessoesHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 50vh;
+}
+
+.sessoesHome{
+    background-color: #C7DAA3;
+    padding: 50px;
+    border-radius: 50px;
+    border: 1px solid #9CB173;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.sessoesHome p{
+    margin-top: 15px;
+    color:#6B7D47;
+}
+
+.sessoesHome img{
+    height: 130px;
+    width: 130px;
+}
+
+.dropdown-toggle{
+    --bs-btn-bg: none !important;
+    --bs-btn-border-color: none !important;
+    --bs-btn-hover-bg: none !important;
+    --bs-btn-hover-border-color: none !important;
+    --bs-btn-active-bg: none !important;
+    --colorbs-btn-active-border-:none !important;
+}
+
+.dropdown button{
+    padding: none !important;
+}
+ 
+.dropdown-toggle::after{
+    display: none !important;
+}
+
+.dropdown button {
+    padding: 0 !important;
+    border: none;
+    background: none;
+}
+
+.dropdown-menu{
+    padding: 8px;
+}
+
+.dropdown-item{
+    color: #9CB173;
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+ 
+
