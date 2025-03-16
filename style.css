@@ -70,6 +70,7 @@ form img{
     border: 1px solid #B6D084;
     border-radius: 10px;
     box-shadow: 2px 2px 8px #B6D084;
+    font-family: "Inter";
 }
 
 .campoForm input:focus{
