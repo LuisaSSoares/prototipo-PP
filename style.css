@@ -158,6 +158,10 @@ form img{
     
 }
 
+.headerHome a{
+    text-decoration: none;
+}
+
 #logo{
     height: 16vh;
     width: 16vw;
@@ -184,7 +188,7 @@ form img{
     display: flex;
     background-color: transparent;
     height: 1cm;
-    width: 20vw;
+    width: 25vw;
     border-radius: 50px;
     border: 1px solid #6B7D47;
     align-items: center;
@@ -196,6 +200,7 @@ form img{
     color: #6B7D47;
     font-weight: 200;
     opacity: 50%;
+    font-family: "Bellota";
 }
  
 .pesquisa input {
@@ -205,6 +210,7 @@ form img{
     width: 15cm;
     letter-spacing: 1.5px;
     padding: 5px 20px;
+    font-family: "Inter";
 }
  
 .pesquisa img {
@@ -212,35 +218,40 @@ form img{
     width: 25px;
 }
 
-.containerSessoesHome{
+.containerSecoesHome{
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 50px;
-    height: 50vh;
+    gap: 30px;
+    padding: 90px 0 ;
+    margin: 0 auto;
 }
 
-.sessoesHome{
+.secoesHome:hover{
+    box-shadow: 0 0 0 2px  #9CB173;
+}
+
+.secoesHome{
     background-color: #C7DAA3;
-    padding: 50px;
+    padding: 25px;
     border-radius: 50px;
     border: 1px solid #9CB173;
     align-items: center;
     text-align: center;
     cursor: pointer;
+    width: 13vw;
     
 }
 
-.sessoesHome p{
+.secoesHome p{
     margin-top: 15px;
     color:#6B7D47;
+    font-size: 18px;
 }
 
-.sessoesHome img{
-    height: 130px;
-    width: 130px;
+.secoesHome img{
+    height: 100px;
+    width: 100px;
 }
-
 .dropdown-toggle{
     --bs-btn-bg: none !important;
     --bs-btn-border-color: none !important;
@@ -275,5 +286,107 @@ form img{
     gap: 15px;
     justify-content: space-between;
 }
- 
 
+#bodyFeed{
+   background-image: none;
+   background-color: #F8FFCA;
+
+}
+
+#iconFeed{
+    height: 10vh;
+}
+
+header{
+    background-image: url(./assets/image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerPost * {
+    margin: 0;
+    font-family: "Inter";
+  
+}
+
+.containerPost{
+    box-shadow: 2px 2px 2px 1px #9CB173;
+    width: 75vw;
+    height: 30vh; 
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+    overflow-y: auto;
+}
+
+
+.perfilPost{
+    margin-top: 15px;
+    display: flex;
+    width: 30vw;
+    height: auto;
+    gap: 10px;  
+}
+
+.perfilPost img{
+    height: 60px;
+}
+
+.retangulo {
+    width: 250px;
+    height: 150px;
+    background: #D9D9D9;
+    margin: 15px;
+  }
+
+  .infosEPerfil{
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infosPost{
+    margin-top: 15px;
+  }
+  
+  #tag{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform:uppercase;
+    color: #193309;
+  }
+
+  #nome{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #6B7D47;
+  }
+
+  #usuario{
+    font-style: italic;
+    font-size: 15px;
+    color: #193309;
+  }
+
+  #tituloPost{
+    font-weight: bold;
+    font-size: 20px;
+    color: #6B7D47;
+  }
+
+  #descricao{
+    font-size: 12px;
+    font-style: italic;
+    color: #193309;
+    font-weight: 300;
+  }
+
+.reactPost{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
