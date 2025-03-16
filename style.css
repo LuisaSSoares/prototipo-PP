@@ -22,6 +22,7 @@ form{
     display: flex;
 }
 
+/* index.html */
 .containerForm{
     margin-top: 45px;
     display: flex;
@@ -137,6 +138,8 @@ form img{
     color: #193309;
 
 }
+
+/* homepage.html */
 #formHome{
     display: flex;
     flex-direction: column;
@@ -253,6 +256,7 @@ form img{
     height: 100px;
     width: 100px;
 }
+
 .dropdown-toggle{
     --bs-btn-bg: none !important;
     --bs-btn-border-color: none !important;
@@ -288,6 +292,7 @@ form img{
     justify-content: space-between;
 }
 
+/* feed.html */
 #bodyFeed{
    background-image: none;
    background-color: #F8FFCA;
