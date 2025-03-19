@@ -18,14 +18,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (iconeFeed && secaoSelecionada) {
         const icones = {
-            secaoMusicaAudio: './assets/Headphones.png',
-            secaoPlastica: './assets/artes plásticas.png',
-            secaoCenica: './assets/artes cenicas.png',
-            secaoLiteratura: './assets/BookHalf.png'
+            secaoMusicaAudio: { src: './assets/Headphones.png', alt: 'Ícone de fones de ouvido, representando música e áudio' },
+            secaoPlastica: { src: './assets/artes plásticas.png', alt: 'Ícone de uma paleta de tinta, representando artes plásticas' },
+            secaoCenica: { src: './assets/artes cenicas.png', alt: 'Ícone de máscaras, representando artes cênicas' },
+            secaoLiteratura: { src: './assets/BookHalf.png', alt: 'Ícone de livro, representando literatura' }
         };
 
         if (icones[secaoSelecionada]) {
-            iconeFeed.setAttribute('src', icones[secaoSelecionada])
+            iconeFeed.setAttribute('src', icones[secaoSelecionada].src)
+            iconeFeed.setAttribute('alt', icones[secaoSelecionada].alt)
         }
     }
 });
