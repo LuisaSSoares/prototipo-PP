@@ -15,7 +15,7 @@ body{
 
 form{
     max-width: 75%;
-    height: 670px; 
+    height: 700px; 
     margin: 50px auto;
     background-color: #F8FFCA;
     border-radius: 20px;
@@ -24,15 +24,13 @@ form{
 
 /* index.html */
 .containerForm{
-    margin-top: 45px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
 
 }
 
-
 .containerForm h1{
-    text-align: center;
     font-size: 60px;
     font-family: "Julius Sans One"; 
     color: #193309;
@@ -50,8 +48,21 @@ form{
     color: #193309;
 }
 
+.erro {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: 4px;
+}
+
+legend{
+    position: absolute;
+    font-size: 20px;
+    visibility: hidden;
+}
+
 form img{
-    height: 670px;
+    height:700px;
     width: 450px;
     margin-left: auto;
 }
@@ -72,13 +83,14 @@ form img{
     border-radius: 10px;
     box-shadow: 2px 2px 8px #B6D084;
     font-family: "Inter";
+    font-size: 17px;
+    padding: 4px;
 }
 
 .campoForm input:focus{
     border: 2px solid #3E5A2E;
     outline: none;
 }
-
 .botaoForm{
     align-self: center;
     font-size: 18px;
@@ -131,12 +143,17 @@ form img{
 }
 
 .containerForm a {
-    margin-top: 10px;
+    margin-top: 20px;
     align-self: center;
     font-size: 13px;
     text-decoration: none;
     color: #193309;
 
+}
+
+.containerForm a:focus, .containerForm a:hover{
+    font-weight: 900;
+    color: #9CB173;
 }
 
 /* homepage.html */
@@ -291,6 +308,9 @@ form img{
     gap: 15px;
     justify-content: space-between;
 }
+.dropdown-item:active{
+    background-color: #9CB173;
+}
 
 /* feed.html */
 #bodyFeed{
@@ -396,3 +416,4 @@ header{
     margin-top: 15px;
     cursor: pointer;
 }
+

@@ -36,9 +36,25 @@ async function login(event) {
     event.preventDefault()
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
-    if(!email || !senha) {
-        alert('preencha todos os campos')
-        return
+    const erroEmail = document.getElementById('erroEmail')
+    const erroSenha = document.getElementById('erroSenha')
+    let temErro = false 
+
+    if (!email) {
+        erroEmail.textContent = "⚠️ O campo de e-mail é obrigatório"
+        temErro = true
+    } else {
+        erroEmail.textContent = ""
     }
+
+    if (!senha) {
+        erroSenha.textContent = "⚠️ O campo de senha é obrigatório"
+        temErro = true
+    } else {
+        erroSenha.textContent = ""
+    }
+
+    if (temErro) return
+
     window.location.href = "./homepage.html"
 }
