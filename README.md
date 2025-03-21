@@ -29,11 +29,11 @@ Sim, itens como ícones, botões e áreas possuem uma descrição alternativa em
 Não há o uso de imagens com blocos de textos, visto que dificulta a leitura pelo leitor de tela e o rastreamento por buscadores. O site exibe todos os textos de forma nativa no HTML, proporcionando uma aplicação mais leve e estruturada. 
 
 ## Formulários:
-**4:Todos os campos dos formulários têm uma <label> associada**
-Sim, todos os formulários tem uma <label> associada em um input, pois ajudam na navegação por teclado e leitores de tela. 
+**4:Todos os campos dos formulários têm uma `<label>` associada**
+Sim, todos os formulários tem uma `<label>` associada em um input, pois ajudam na navegação por teclado e leitores de tela. 
 
-**5:São usados <fieldset> e <legend> para agrupar os vários campos nos formulários**
-Há o uso de <fieldset> e <legend> no formulário, permitindo agrupar vários campos nele. Essas propriedade auxiliam na organização e na leitura de tela pelo usuário, melhorando a acessibilidade. 
+**5:São usados `<fieldset>` e `<legend>`para agrupar os vários campos nos formulários**
+Há o uso de `<fieldset>` e `<legend>` no formulário, permitindo agrupar vários campos nele. Essas propriedade auxiliam na organização e na leitura de tela pelo usuário, melhorando a acessibilidade. 
 
 **6:O envio dos formulários é feito via input/button e não através de links e JavaScript**
 Esse requisito não é atendido, pois o envio de formulários depende do JavaScript, pois foram definidas condições em que, se não atendidas, o formulário não será enviado. Por mais que seja relevante para melhorar a acessibilidade, por conta da construção e lógica da aplicação, não consegui aplicar esse critério, mas espero que op aplicativo possa proporcionar uma experiência agradável ao usuário. 
@@ -61,7 +61,7 @@ A navegação funciona com `Tab` e `Enter`, além das setas para rolar a tela. O
 
 ## Legitimidade:
 **13:O conteúdo está estruturado de forma semântica**
-Há o uso de cabeçalho (<h1>), parágrafos (<p>), e listas (<ul>), permitindo criar um nível hierárquico nos conteúdos e estruturando os conteúdos adequadamente. 
+Há o uso de cabeçalho (`<h1>`), parágrafos (`<p>`), e listas (`<ul>`), permitindo criar um nível hierárquico nos conteúdos e estruturando os conteúdos adequadamente. 
 
 **14:O idioma da página está indicado no HTML**
 O atributo `lang="pt-PT"` está definido corretamente em todas as páginas para auxiliar no idioma da leitura de tela.  
