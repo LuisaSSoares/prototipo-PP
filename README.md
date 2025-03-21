@@ -66,7 +66,7 @@ Há o uso de cabeçalho (`<h1>`), parágrafos (`<p>`), e listas (`<ul>`), permit
 **14:O idioma da página está indicado no HTML**
 O atributo `lang="pt-PT"` está definido corretamente em todas as páginas para auxiliar no idioma da leitura de tela.  
 
-**15:As tabelas têm headings <th> definidos**
+**15:As tabelas têm headings `<th> `definidos**
 O projeto não contém tabelas. Esse critério não se aplica.  
 
 **16:O site funciona com as imagens desativadas&**
